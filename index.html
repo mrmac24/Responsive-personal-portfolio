@@ -7,6 +7,19 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&family=Poppins:wght@200;300;400;600;800&family=Roboto&family=Roboto+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
 
     <!-- Bootstrap CSS -->
     <link
@@ -30,7 +43,57 @@
   <body>
     <!------------------- HEADER -------------------->
 
-    <header class="header"></header>
+    <header class="header" id="header">
+      <nav class="nav container navbar-expand-lg">
+        <a href="#" class="nav__logo navbar-brand ml-3">Omar M</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar-default"
+          aria-controls="navabr-default"
+          aria-expanded="false"
+          aria-label="toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list grid">
+            <li class="nav__item">
+              <a href="#home" class="nav__link">
+                <i class="uil uil-estate nav__icon"></i> Home
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i> About Us
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file nav__icon"></i> Skills
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#qualification" class="nav__link">
+                <i class="uil uil-diary nav__icon"></i> Qualification
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i> Portfolio
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-message nav__icon"></i> Contact Us
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
     <!-- ============== MAIN ==================== -->
     <main class="main">
@@ -38,15 +101,19 @@
       <section class="home section" id="home"></section>
 
       <!-- ABOUT ME -->
-      <section class="home section" id="home"></section>
-      <!-- QUALIFICATIONS(SKILLS AND EXPERIENCE) -->
+      <section class="about section" id="about"></section>
+
+      <!-- SKILLS -->
+      <section class="skills section" id="skills"></section>
+
+      <!-- QUALIFICATIONS (EDUCATION AND EXPERIENCE) -->
       <section class="qualification section" id="qualification"></section>
 
       <!-- PORTFOLIO -->
       <section class="portfolio section" id="portfolio"></section>
 
       <!-- CONTACT US -->
-      <section class="contact section" id="portfolio"></section>
+      <section class="contact section" id="contact"></section>
     </main>
     <!------------------- FOOTER -------------------->
     <footer class="footer"></footer>
